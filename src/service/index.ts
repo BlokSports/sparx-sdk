@@ -3,7 +3,7 @@ import { IMessage, IUserData, IAnswerData } from "./types";
 import { IPollsData } from "../types";
 
 const localInstance = axios.create({
-  baseURL: "https://chat.r-words.com",
+  baseURL: "https://chat.sparx.studio",
 });
 
 export const setUserRequest = (userData: IUserData) => {
