@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+.vTrx6SideChat_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", serif;
+  box-shadow: #32325d22 0px 2px 5px -1px, #00000021 0px 1px 3px -1px;
+}
+
+.vTrx6SideChat_quizEnd {
+  text-align: center;
+}
+
+.vTrx6SideChat_timerProgress {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.vTrx6SideChat_quiz {
+  width: 100%;
+}
+.vTrx6SideChat_quizHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1.5px solid #dedededc;
+  padding: 40px;
+}
+.vTrx6SideChat_quizAmount {
+  text-align: center;
+  margin: 0;
+}
+.vTrx6SideChat_quizQuestion {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+.vTrx6SideChat_quizBody {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.vTrx6SideChat_quizList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+}
+.vTrx6SideChat_quizListItem {
+  width: 100%;
+  list-style: none;
+}
+.vTrx6SideChat_quizListButton {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1.5px solid #efefefdc;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 100%;
+  padding: 15px;
+  box-shadow: #24242407 2.4px 2.4px 3.2px;
+  transition: all 0.2s ease;
+}
+
+.vTrx6SideChat_quizListButtonActive {
+  background-color: #272d2a;
+  border: 1.5px solid #272d2a;
+}
+
+.vTrx6SideChat_quizListButtonActive > .vTrx6SideChat_quizListItemAnswer {
+  color: #fff;
+}
+
+.vTrx6SideChat_quizListButtonActive > .vTrx6SideChat_quizListItemIndx {
+  color: #000;
+}
+
+.vTrx6SideChat_quizListButtonActive:not(:disabled):hover {
+  box-shadow: #24242407 3.4px 3.4px 4.2px;
+  background-color: #272d2aef;
+  border: 1.5px solid #272d2aef;
+}
+
+.vTrx6SideChat_quizListButtonCorrent {
+  background-color: #82c881;
+  border: 1.5px solid #82c881;
+}
+
+.vTrx6SideChat_quizListItemIndx {
+  flex-shrink: 0;
+}
+
+.vTrx6SideChat_quizListButtonCorrent > .vTrx6SideChat_quizListItemIndx {
+  background-color: #fff;
+  color: #82c881;
+}
+.vTrx6SideChat_quizListButtonIncorrent {
+  background-color: #ff4545;
+  border: 1.5px solid #ff4545;
+}
+
+.vTrx6SideChat_quizListButtonIncorrent > .vTrx6SideChat_quizListItemIndx {
+  background-color: #fff;
+  color: #ff4545;
+}
+
+.vTrx6SideChat_quizListItemIndx {
+  background-color: #9ed157;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #fff;
+}
+.vTrx6SideChat_quizListItemAnswer {
+  font-size: 18px;
+}
+
+.vTrx6SideChat_quizCta {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.vTrx6SideChat_quizCtaBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  gap: 10px;
+  cursor: pointer;
+  background-color: #9ed157;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 50px;
+  color: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+.vTrx6SideChat_quizCtaBtn:disabled {
+  background-color: #bebebe;
+}
+.vTrx6SideChat_quizCtaBtn:hover {
+  transform: scale(1.02);
+}
+.vTrx6SideChat_quizCtaBtn:active {
+  background-color: #272d2ace;
+  transform: scale(1);
+}
